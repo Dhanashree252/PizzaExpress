@@ -1,0 +1,96 @@
+/* import background from "../../images/background.jpg" */
+
+.prodDescContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(210, 142, 54);
+    background-image: url("../../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 130vh;
+   
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -10;
+    /* overflow:auto; */
+}
+
+.Navabar{
+    /* border: 2px solid green; */
+    min-height:40vh;
+
+}
+
+.prodDesc{
+    /* border: 2px solid blue; */
+    min-height: 70vh;
+    /* max-height:200vh; */
+    display: flex;
+    /* max-width: 60%; */
+    justify-content:space-around;
+    /* align-items:center; */
+    flex-wrap: wrap;
+    color : white;
+    margin: 0 auto;
+    /* position: relative;
+    overflow: scroll; */
+     /* overflow: scroll; */
+    /* overflow-x: scroll; */
+/*
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    color:white; */
+    
+
+}
+
+.prodImg{
+    /* border: 2px solid cyan; */
+    min-height: 45vh;
+    max-height: 50vh;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-image:  url(`${props.data[p-1].img}`); */
+    /* background-image: url("https://media.istockphoto.com/photos/cheesy-pepperoni-pizza-picture-id938742222?b=1&k=20&m=938742222&s=170667a&w=0&h=HyfY78AeiQM8vZbIea-iiGmNxHHuHD-PVVuHRvrCIj4="); */
+
+    /* height: 50vh; */
+    min-width: 250px;
+    max-width: 30%;
+    width: 300px;
+    box-shadow: 8px 8px rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+/* .prodImg img{
+    background-size: cover;
+} */
+
+.prodDetails{
+    /* border: 2px solid peachpuff; */
+    min-height:20vh;
+    /* max-height: 40vh; */
+    height: 50vh;
+    width: 50%;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    text-align: center;
+    position:relative;
+    top: 0rem;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: 500;
+}
