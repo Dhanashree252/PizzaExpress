@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
-//  position:absolute;
-    // bottom:0vh;// position:absolute;
-    // bottom:-50vh;
+
 export const FooterContainer = styled.footer`
     background-color: #0d0909;
     position:relative;

@@ -112,8 +112,6 @@ export const ProductsData = [
     }
 ]
 
-
-// console.log(ProductsData[0].id)
 export const ProductsDataTwo = [
     {
         id:1,
